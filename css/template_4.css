@@ -1,0 +1,127 @@
+body { background-color: #CCC; }
+.container { width: 800px; position: absolute; left: 50%; margin: 0 0 0 -400px; background-color: #F7F8F8; }
+.header { width: 800px; height: 219px; float: left; margin: 0; background: url("../images/template_4/header.png") no-repeat; }
+.header h1, .header h2 { text-align: center; color: #FFF; }
+.header h1 { font-size: 48px; font-weight: bold; }
+.header h1:first-child { margin: 30px 0 0 0; }
+.header h2 { margin: 20px 0 0 0; font-size: 16px; }
+.part_1, .part_2, .part_3, .part_4 { float: left; margin: 20px 0 0 0; }
+.part_1 h2, .part_2 h2, .part_3 h2, .part_4 h2 { width: 800px; height: 40px; display: block; float: left; padding: 0 0 0 30px; line-height: 35px; font-size: 28px; font-weight: bold; letter-spacing: 1px; color: #0D4053; background: url("../images/template_4/title_line.png") no-repeat; background-position: 0 31px; }
+.part_1 .describe { width: 600px; position: absolute; margin: 60px 0 0 20px; }
+.part_1 .describe .sharp { width: 29px; height: 15px; float: left; margin: 0 0 0 40px; background: url("../images/template_4/part1_describe.png") no-repeat; }
+.part_1 .describe .text { width: 560px; float: left; padding: 20px 20px; border-radius: 8px; font-size: 18px; color: #FFF; background-color: #176172; }
+.part_1 .up, .part_1 .down { float: left; }
+.part_1 .up { margin: 20px 0 0 20px; }
+.part_1 .up .horse_car { float: left; }
+.part_1 .up .horse_car .horses { width: 329px; height: 403px; float: left; position: relative; z-index: 2; margin: 120px 0 0 0; background: url("../images/template_4/threeHorse.png") no-repeat; }
+.part_1 .up .horse_car .horses>div { width: 180px; height: 145px; position: absolute; }
+.part_1 .up .horse_car .horses>div .name { width: 20px; position: absolute; margin: 18px 0 0 47px; font-size: 18px; font-weight: bold; line-height: 22px; color: #FFF; }
+.part_1 .up .horse_car .horses .horse2 .name, .part_1 .up .horse_car .horses .horse3 .name { margin-top: 30px; }
+.part_1 .up .horse_car .horses>div .value { width: 100px; position: absolute; margin: 82px 0 0 48px; text-align: center; font-size: 14px; color: #FFF; }
+.part_1 .up .horse_car .horses>div .rank { position: absolute; margin: 46px 0 0 102px; font-size: 20px; font-weight: bold; }
+.part_1 .up .horse_car .horses .horse2 .rank { margin: 44px 0 0 104px; }
+.part_1 .up .horse_car .horses .horse1 { margin: 113px 0 0 0; }
+.part_1 .up .horse_car .horses .horse2 { margin: 0 0 0 78px; }
+.part_1 .up .horse_car .horses .horse3 { margin: 257px 0 0 62px; }
+.part_1 .up .horse_car .car { float: left; margin: 100px 0 0 0; }
+.part_1 .up .horse_car .car .pie { }
+.part_1 .up .horse_car .car .carBody { width: 402px; height: 101px; float: left; text-align: center; line-height: 60px; font-size: 42px; color: #FFF; background: url("../images/template_4/carBody.png") no-repeat; }
+.part_1 .down { width: 700px; height: 205px; margin: 20px 0 0 50px; }
+.part_1 .down .left { float: left; margin: 35px 0 0 0; }
+.part_1 .down .left ul { width: 280px; height: 150px; }
+.part_1 .down .left ul li { width: 280px; height: 60px; float: left; color: #0D4053; }
+.part_1 .down .left ul .two { margin: 30px 0 0 0; }
+.part_1 .down .left ul li .info { width: 150px; float: left; }
+.part_1 .down .left ul li .name, .part_1 .down .left ul li .value { float: left; font-size: 16px; }
+.part_1 .down .left ul li .value span { font-size: 18px; font-weight: bold; color: #EF6014; }
+.part_1 .down .left ul .one .chart { width: 117px; height: 58px; float: left; margin:5px 0 0 0; background: url("../images/template_4/incre1.png") no-repeat; }
+.part_1 .down .left ul .two .chart { width: 116px; height: 52px;float: left; margin: 12px 0 0 0; background: url("../images/template_4/incre2.png") no-repeat; }
+.part_1 .down .right { width: 400px; height: 205px; float: left; margin: 0 0 0 20px; }
+.part_2 .describe { width: 480px; position: absolute; margin: 70px 0 0 300px; }
+.part_2 .describe .text { padding: 20px 20px; border-radius: 8px; font-size: 18px; color: #FFF; background-color: #1A5964; }
+.part_2 .describe .sharp { width: 39px; height: 19px; margin: 0 0 0 50px; background: url("../images/template_4/part2_describe.png") no-repeat;  }
+.part_3 .describe { width: 710px; min-height: 30px; float: left; margin: 20px 0 0 25px; padding: 20px 20px; font-size: 18px; color: #FFF; background: url("../images/template_4/part3_describe.png") repeat-y; }
+.part_4 .describe { width: 320px; position: absolute; margin: 350px 0 0 450px;  }
+.part_4 .describe .sharp { width: 29px; height: 15px; margin: 0 0 0 40px; background: url("../images/template_4/part4_describe.png") no-repeat; }
+.part_4 .describe .text { padding: 20px 20px; border-radius: 8px; font-size: 18px; color: #FFF; background-color: #97B552; }
+.footer { width: 800px; height: 55px; float: left; margin: 110px 0 0 0; background: url("../images/template_4/footer.png") no-repeat; }
+
+.wingChartBar1 { width: 450px; }
+.wingChartBar1 h3 { height: 25px; margin: 0 0 10px 0; line-height: 25px; text-align: center; font-size: 18px; font-weight: bold; color: #604C3F; }
+.wingChartBar1 >div { height: 40px; margin: 0 0 10px 0; }
+.wingChartBar1 .left { width: 141px; height: 30px; float: left; margin: 10px 0 0 0; }
+.wingChartBar1 .line_1 .left { background: url(../images/template_4/left_line_1.png) no-repeat; }
+.wingChartBar1 .line_2 .left { background: url(../images/template_4/left_line_2.png) no-repeat; }
+.wingChartBar1 .line_3 .left { background: url(../images/template_4/left_line_3.png) no-repeat; }
+.wingChartBar1 .line_4 .left { background: url(../images/template_4/left_line_4.png) no-repeat; }
+.wingChartBar1 .line_5 .left { background: url(../images/template_4/left_line_5.png) no-repeat; }
+.wingChartBar1 .left .text { margin: 0 0 0 5px; line-height: 30px; font-weight: bold; color: #FFF; }
+.wingChartBar1 .right { height: 30px; float: left; margin: 0 0 0 -20px; }
+.wingChartBar1 .right .fix { height: 30px; width: 20px; float: left; }
+.wingChartBar1 .right .change { height: 30px; float: left; }
+.wingChartBar1 .line_1 .right .change, .wingChartBar1 .line_1 .right .fix { background-color: #EAAB10; }
+.wingChartBar1 .line_2 .right .change, .wingChartBar1 .line_2 .right .fix { background-color: #71A401; }
+.wingChartBar1 .line_3 .right .change, .wingChartBar1 .line_3 .right .fix { background-color: #01A79B; }
+.wingChartBar1 .line_4 .right .change, .wingChartBar1 .line_4 .right .fix { background-color: #663EDD; }
+.wingChartBar1 .line_5 .right .change, .wingChartBar1 .line_5 .right .fix { background-color: #95135D; }
+.wingChartBar1 .line_1 .right .change { width: 259px; }
+.wingChartBar1 .line_2 .right .change { width: 209px; }
+.wingChartBar1 .line_3 .right .change { width: 159px; }
+.wingChartBar1 .line_4 .right .change { width: 109px; }
+.wingChartBar1 .line_5 .right .change { width: 59px; }
+.wingChartBar1 .number { width: 50px; float: left; line-height: 30px; text-align: center; font-size: 14px; font-weight: bold; }
+.wingChartBar1 .line_1 .number { color: #EAAB10; }
+.wingChartBar1 .line_2 .number { color: #71A401; }
+.wingChartBar1 .line_3 .number { color: #01A79B; }
+.wingChartBar1 .line_4 .number { color: #663EDD; }
+.wingChartBar1 .line_5 .number { color: #95135D; }
+
+.daiChartBar1 { width: 700px; margin: 0 0 0 50px; overflow: hidden; }
+.daiChartBar1 .bar1, .daiChartBar1 .bar2, .daiChartBar1 .bar3 { float: left; }
+.daiChartBar1 .bar1 { margin: 30px 0 0 0; }
+.daiChartBar1 .bar2 { margin: 234px 0 0 50px; }
+.daiChartBar1 .bar3 { margin: 264px 0 0 50px; }
+.daiChartBar1 .bar1 .bar { width: 190px; height: 362px; background: url("../images/template_4/bar1.png") no-repeat; }
+.daiChartBar1 .bar2 .bar { width: 190px; height: 181px; background: url("../images/template_4/bar2.png") no-repeat; }
+.daiChartBar1 .bar3 .bar { width: 190px; height: 129px; background: url("../images/template_4/bar3.png") no-repeat; }
+.daiChartBar1 .bar span { width: 190px; display: block; float: left; font-size: 48px; color: #FFF; text-align: center; }
+.daiChartBar1 .bar1 .bar span { margin: 50px 0 0 0; }
+.daiChartBar1 .bar2 .bar span { margin: 80px 0 0 0; }
+.daiChartBar1 .bar3 .bar span { margin: 50px 0 0 0; }
+.daiChartBar1 .bar1 .icon { width: 87px; height: 76px; margin: 20px 0 0 52px; background: url("../images/template_4/shoppingCar.png") no-repeat; }
+.daiChartBar1 .bar2 .icon { width: 107px; height: 83px; margin: 0 0 30px 42px; background: url("../images/template_4/gear.png") no-repeat; }
+.daiChartBar1 .bar3 .icon { width: 134px; height: 75px; margin: 20px 0 0 28px; background: url("../images/template_4/goodsCar.png") no-repeat; }
+.daiChartBar1 .bar1 .text, .daiChartBar1 .bar2 .text, .daiChartBar1 .bar3 .text { text-align: center; font-size: 18px; color: #898989; }
+.daiChartBar1 .bar1 .text { margin: 20px 0 0 0; }
+.daiChartBar1 .bar2 .text { margin: 0 0 20px 0; }
+.daiChartBar1 .bar3 .text { margin: 20px 0 0 0; }
+.daiChartBar1 .line { width: 700px; position: absolute; margin: 385px 0 0 0; }
+.daiChartBar1 .line hr { border: 0; background-color: #B5B5B6; height: 1px; }
+
+.daiChartBar2 { width: 750px; float: left; margin: 30px 0 0 40px; }
+.daiChartBar2 .bar1, .daiChartBar2 .bar2, .daiChartBar2 .bar1 .text, .daiChartBar2 .bar2 .text, .daiChartBar2 .bar1 .bar, .daiChartBar2 .bar2 .bar,
+  .daiChartBar2 .bar1 .persents, .daiChartBar2 .bar2 .persents { float: left; }
+.daiChartBar2 .bar2 { margin: 20px 0 0 0; }
+.daiChartBar2 .bar1 .text, .daiChartBar2 .bar2 .text { height: 157px; line-height: 157px; font-size: 38px; font-weight: bold; color: #717171; }
+.daiChartBar2 .bar1 .bar, .daiChartBar2 .bar2 .bar { margin: 0 0 0 20px; line-height: 157px; padding: 0 0 0 165px; font-size: 38px; color: #FFF; }
+.daiChartBar2 .bar1 .bar { width: 263px; height: 157px; background: url("../images/template_4/goods.png") no-repeat; }
+.daiChartBar2 .bar2 .bar { width: 305px; height: 157px; background: url("../images/template_4/passengers.png") no-repeat; }
+.daiChartBar2 .bar1 .persents, .daiChartBar2 .bar2 .persents { height: 157px; margin: 0 0 0 20px; line-height: 157px; font-size: 38px; color: #717171; }
+
+.daiChartPie1 { width: 750px; float: left; margin: 30px 0 0 25px; }
+.daiChartPie1 .center { width: 295px; height: 327px; margin: 0 0 0 -90px; z-index: 1; background: url("../images/template_4/part4_pie.png") no-repeat; }
+.daiChartPie1 .left, .daiChartPie1 .right, .daiChartPie1 .center { float: left; position: relative; }
+.daiChartPie1 .left .persents, .daiChartPie1 .right .persents { height: 50px; margin: 0 0 0 40px; padding: 0 0 0 35px; line-height: 60px; font-size: 38px; color: #727171; background: url("../images/template_4/part4_arrow.png") no-repeat; }
+.daiChartPie1 .left .value, .daiChartPie1 .right .value { margin: 0 0 0 30px; font-size: 22px; color: #727171; }
+.daiChartPie1 .left .name, .daiChartPie1 .right .name { margin: 5px 0 0 20px; font-size: 24px; font-weight: bold; color: #0D4053; }
+.daiChartPie1 .left { z-index: 2; width: 274px; margin: 60px 0 0 0; background: url("../images/template_4/part4_line1.png") no-repeat; background-position: 0 78px; }
+.daiChartPie1 .left .persents {  }
+.daiChartPie1 .right { z-index: 2; width: 290px; margin: 40px 0 0 -50px; background: url("../images/template_4/part4_line2.png") no-repeat; background-position: 0 78px; }
+.daiChartPie1 .right .persents { margin: 0 0 0 120px; }
+.daiChartPie1 .right .value { margin: 0 0 0 100px; }
+.daiChartPie1 .right .name { margin: 5px 0 0 120px; }
+
+.part_1 .up .horse_car .car .pie iframe { width: 460px; height: 300px; margin: 0 0 0 -30px; background-color: #F7F8F8; }
+#part1_chart1 { width: 460px; height: 300px; background-color: #F7F8F8; }
+.part_1 .down .right iframe { width: 400px; height: 225px; border: 0 solid #CCC; border-radius: 3px; background-color: #F7F8F8; }
+#part1_chart2 { width: 400px; height: 225px; margin: 0; padding: 0; background-color: #F7F8F8; }

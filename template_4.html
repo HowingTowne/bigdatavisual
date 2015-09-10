@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>前三季度广东经济运行情况</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css" />
+    <link rel="stylesheet" type="text/css" href="css/template_4.css"/>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>前三季度</h1>
+        <h1>广东经济运行情况</h1>
+        <h2>————————（2014）————————</h2>
+    </div>
+    <div class="part_1">
+        <h2>经济增长情况</h2>
+        <div class="describe">
+            <div class="text">2014年1-11月，广东经济继续平稳运行，工业、投资、消费、财政收入增速保持稳定，银行存贷款、物价增速回落。</div>
+            <div class="sharp"></div>
+        </div>
+        <div class="up">
+            <div class="horse_car">
+                <div class="horses">
+                    <div class="horse1">
+                        <div class="name">进出口</div>
+                        <div class="value"><span>47533.58亿元</span></div>
+                        <div class="rank">1</div>
+                    </div>
+                    <div class="horse2">
+                        <div class="name">消费</div>
+                        <div class="value"><span>20762.19亿元</span></div>
+                        <div class="rank">2</div>
+                    </div>
+                    <div class="horse3">
+                        <div class="name">投资</div>
+                        <div class="value"><span>17066.11亿元</span></div>
+                        <div class="rank">3</div>
+                    </div>
+                </div>
+                <div class="car">
+                    <div class="pie">
+                        <iframe src="charts/GDPofGD.html"></iframe>
+                    </div>
+                    <div class="carBody"><span>GDP</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+            <div class="left">
+                <ul>
+                    <li class="one">
+                        <div class="info">
+                            <div class="name">来源于广东的</div>
+                            <div class="name">财政总收入</div>
+                            <div class="value"><span>14054.22亿</span>元</div>
+                        </div>
+                        <div class="chart"></div>
+                    </li>
+                    <li class="two">
+                        <div class="info">
+                            <div class="name">金融机构（含外资）</div>
+                            <div class="name">本外币存款余额</div>
+                            <div class="value"><span>127015.91亿</span>元</div>
+                        </div>
+                        <div class="chart"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <iframe src="charts/Speed.html"></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="part_2">
+        <h2>三大指标增速</h2>
+        <div class="describe">
+            <div class="text">2014年1-11月，广东经济继续平稳运行，工业、财政收入增速保持稳定，物价增速回落。</div>
+            <div class="sharp"></div>
+        </div>
+        <div class="daiChartBar1">
+            <div class="bar1">
+                <div class="bar"><span>2.6%</span></div>
+                <div class="icon"></div>
+                <div class="text">居民消费价格指数</div>
+            </div>
+            <div class="bar2">
+                <div class="text">工业生产者出厂价格指数</div>
+                <div class="icon"></div>
+                <div class="bar"><span>-0.8%</span></div>
+            </div>
+            <div class="bar3">
+                <div class="bar"><span>0.3%</span></div>
+                <div class="icon"></div>
+                <div class="text">省制造业采购经理指数</div>
+            </div>
+            <div class="line"><hr/></div>
+        </div>
+    </div>
+    <div class="part_3">
+        <h2>货运客运情况</h2>
+        <div class="describe">2014年1-11月，广东经济继续平稳运行，工业、财政收入增速保持稳定，物价增速回落。</div>
+        <div class="daiChartBar2">
+            <div class="bar1">
+                <div class="text">货运量</div>
+                <div class="bar">324794万吨</div>
+                <div class="persents">9.4%</div>
+            </div>
+            <div class="bar2">
+                <div class="text">客运量</div>
+                <div class="bar">177313万人</div>
+                <div class="persents">10.4%</div>
+            </div>
+        </div>
+    </div>
+    <div class="part_4">
+        <h2>用电量</h2>
+        <div class="daiChartPie1">
+            <div class="left">
+                <div class="persents">8.3%</div>
+                <div class="value">3959.8万千瓦时</div>
+                <div class="name">省内全社会用电量</div>
+            </div>
+            <div class="center"></div>
+            <div class="right">
+                <div class="persents">9.2%</div>
+                <div class="value">2588.91万千瓦时</div>
+                <div class="name">工业用电量</div>
+            </div>
+        </div>
+        <div class="describe">
+            <div class="sharp"></div>
+            <div class="text">广东经济继续平稳运行，工业、财政收入增速保持稳定</div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</div>
+
+    <script type="text/javascript">
+            window.onload = showPersents();
+    function showPersents() {
+        var maxNumber = 35;      //最大值
+        var maxLength = 259;     //最大长度
+        var array = new Array();
+        var numberList = document.getElementsByClassName("number");
+        var areaList = document.getElementsByClassName("change");
+        for(var i = 0; i < numberList.length; i++) {
+            array[i] = numberList[i].children[0].innerHTML;
+            var barLength = array[i]/maxNumber*maxLength;
+            areaList[i].style.width = barLength + "px";
+        }
+    }
+</script>
+
+</body>
+</html>

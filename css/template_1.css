@@ -1,0 +1,29 @@
+.container { width: 1200px; position: absolute; left: 50%; margin: 0 0 0 -600px; }
+.header { width: 100%; height: 60px; background-color: #f17e66; }
+.header h1 { font-size: 28px; text-align: center; color: #fff; line-height: 60px; letter-spacing: 2px; }
+.title {  }
+.part_one, .part_two, .part_three { width: 100%; margin-top: 30px; }
+.part_one .title, .part_two .title, .part_three .title { height: 96px; padding-left: 130px; line-height: 76px; font-size: 20px; color: #fff; }
+.part_one {  }
+.part_one .title { width: 380px; background: url("../images/template_1/title1.png") no-repeat; }
+.part_one .list { width: 1000px; margin: 30px auto 0 auto; }
+.part_one .list li { width: 100%; height: 28px; margin-bottom: 50px; padding-left: 45px; color: #27292c; font-size: 16px; line-height: 28px; }
+.part_one .list .list_1 { background: url("../images/template_1/input1.png") no-repeat; }
+.part_one .list .list_2 { background: url("../images/template_1/input2.png") no-repeat; }
+.part_one .list .list_3 { background: url("../images/template_1/input3.png") no-repeat; }
+.part_one .list .list_4 { background: url("../images/template_1/input4.png") no-repeat; }
+.part_one .list .list_5 { background: url("../images/template_1/input5.png") no-repeat; }
+.part_one .list .list_6 { background: url("../images/template_1/input6.png") no-repeat; }
+.part_two, .part_three { margin-top: 70px; }
+.part_two .title { width: 638px; background: url("../images/template_1/title2.png") no-repeat; }
+.part_two .frame_bar { width: 700px; height: 368px; margin: 120px 0 0 80px; border: 0; background: url("../images/template_1/bar.png") no-repeat; }
+.part_two .balloon_list { float: right; margin: -20px 40px 0 0; }
+.part_two .balloon_list li { width: 320px; height: 150px; font-size: 16px; color: #fff; }
+.part_two .balloon_list li span { width: 250px; height: 60px; float: left; display: block; margin: 15px 0 0 55px; }
+.part_two .balloon_list .balloon_one { background: url("../images/template_1/balloon1.png") no-repeat; }
+.part_two .balloon_list .balloon_two { background: url("../images/template_1/balloon2.png") no-repeat; }
+.part_two .balloon_list .balloon_three { background: url("../images/template_1/balloon3.png") no-repeat; }
+.part_three .title { width: 638px; background: url("../images/template_1/title3.png") no-repeat; }
+.part_three .frame_pie { width: 950px; height: 393px; margin: 40px 0 0 125px; border: 0; background: url("../images/template_1/pie.png") no-repeat; }
+.footer { width: 100%; height: 80px; margin: 100px 0 0 0; background: url("../images/template_1/cicle.png") repeat-x; }
+.footer .pure_foot { width: 100%; height: 60px; float: left; margin: 20px 0 0 0; background-color: #01a29a; }
